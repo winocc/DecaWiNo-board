@@ -1,0 +1,890 @@
+EESchema Schematic File Version 4
+LIBS:dwm1000-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L dwm1000-rescue:GND-RESCUE-dwm1000 #PWR01
+U 1 1 599FFCB1
+P 6150 1800
+F 0 "#PWR01" H 6150 1550 50  0001 C CNN
+F 1 "GND" H 6150 1650 50  0000 C CNN
+F 2 "" H 6150 1800 50  0001 C CNN
+F 3 "" H 6150 1800 50  0001 C CNN
+	1    6150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L dwm1000-rescue:GND-RESCUE-dwm1000 #PWR02
+U 1 1 599FFCE7
+P 2200 3400
+F 0 "#PWR02" H 2200 3150 50  0001 C CNN
+F 1 "GND" H 2200 3250 50  0000 C CNN
+F 2 "" H 2200 3400 50  0001 C CNN
+F 3 "" H 2200 3400 50  0001 C CNN
+	1    2200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L dwm1000-rescue:GND-RESCUE-dwm1000 #PWR03
+U 1 1 599FFD0D
+P 5300 3700
+F 0 "#PWR03" H 5300 3450 50  0001 C CNN
+F 1 "GND" H 5300 3550 50  0000 C CNN
+F 2 "" H 5300 3700 50  0001 C CNN
+F 3 "" H 5300 3700 50  0001 C CNN
+	1    5300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L dwm1000-rescue:VCC-RESCUE-dwm1000 #PWR04
+U 1 1 599FFD44
+P 2200 750
+F 0 "#PWR04" H 2200 600 50  0001 C CNN
+F 1 "VCC" H 2200 900 50  0000 C CNN
+F 2 "" H 2200 750 50  0001 C CNN
+F 3 "" H 2200 750 50  0001 C CNN
+	1    2200 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L dwm1000-rescue:CONN_01X05-RESCUE-dwm1000 J3
+U 1 1 599FFDAD
+P 7350 2650
+F 0 "J3" H 7350 2950 50  0000 C CNN
+F 1 "CONN_01X05" V 7450 2650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 7350 2650 50  0001 C CNN
+F 3 "" H 7350 2650 50  0001 C CNN
+	1    7350 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dwm1000-rescue:CONN_01X14-RESCUE-dwm1000 J4
+U 1 1 599FFE0C
+P 7800 3300
+F 0 "J4" H 7800 4050 50  0000 C CNN
+F 1 "CONN_01X14" V 7900 3300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x14_Pitch2.54mm" H 7800 3300 50  0001 C CNN
+F 3 "" H 7800 3300 50  0001 C CNN
+	1    7800 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dwm1000-rescue:CONN_01X14-RESCUE-dwm1000 J5
+U 1 1 599FFEC9
+P 7800 4250
+F 0 "J5" H 7800 5000 50  0000 C CNN
+F 1 "CONN_01X14" V 7900 4250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x14_Pitch2.54mm" H 7800 4250 50  0001 C CNN
+F 3 "" H 7800 4250 50  0001 C CNN
+	1    7800 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dwm1000-rescue:CONN_01X02-RESCUE-dwm1000 J6
+U 1 1 599FFF31
+P 8150 2500
+F 0 "J6" H 8150 2650 50  0000 C CNN
+F 1 "CONN_01X02" V 8250 2500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8150 2500 50  0001 C CNN
+F 3 "" H 8150 2500 50  0001 C CNN
+	1    8150 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dwm1000-rescue:CONN_01X05-RESCUE-dwm1000 J2
+U 1 1 599FFFBB
+P 7350 1800
+F 0 "J2" H 7350 2100 50  0000 C CNN
+F 1 "CONN_01X05" V 7450 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 7350 1800 50  0001 C CNN
+F 3 "" H 7350 1800 50  0001 C CNN
+	1    7350 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dwm1000-rescue:CONN_01X08-RESCUE-dwm1000 J10
+U 1 1 59A0271B
+P 10800 2850
+F 0 "J10" H 10800 3300 50  0000 C CNN
+F 1 "CONN_01X08" V 10900 2850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 10800 2850 50  0001 C CNN
+F 3 "" H 10800 2850 50  0001 C CNN
+	1    10800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L dwm1000-rescue:CONN_01X03-RESCUE-dwm1000 J9
+U 1 1 59A02830
+P 9150 3200
+F 0 "J9" H 9150 3400 50  0000 C CNN
+F 1 "CONN_01X03" V 9250 3200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 9150 3200 50  0001 C CNN
+F 3 "" H 9150 3200 50  0001 C CNN
+	1    9150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L dwm1000-rescue:CONN_01X02-RESCUE-dwm1000 J7
+U 1 1 59A028D7
+P 8850 1000
+F 0 "J7" H 8850 1150 50  0000 C CNN
+F 1 "CONN_01X02" V 8950 1000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8850 1000 50  0001 C CNN
+F 3 "" H 8850 1000 50  0001 C CNN
+	1    8850 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dwm1000-rescue:CONN_01X01-RESCUE-dwm1000 J8
+U 1 1 59A029E0
+P 9050 1550
+F 0 "J8" H 9050 1650 50  0000 C CNN
+F 1 "CONN_01X01" V 9150 1550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 9050 1550 50  0001 C CNN
+F 3 "" H 9050 1550 50  0001 C CNN
+	1    9050 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dwm1000-rescue:R-RESCUE-dwm1000 R2
+U 1 1 59A02C3B
+P 7250 4900
+F 0 "R2" V 7330 4900 50  0000 C CNN
+F 1 "R" V 7250 4900 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 7180 4900 50  0001 C CNN
+F 3 "" H 7250 4900 50  0001 C CNN
+	1    7250 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L dwm1000-rescue:R-RESCUE-dwm1000 R3
+U 1 1 59A02DE0
+P 7250 5100
+F 0 "R3" V 7330 5100 50  0000 C CNN
+F 1 "R" V 7250 5100 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 7180 5100 50  0001 C CNN
+F 3 "" H 7250 5100 50  0001 C CNN
+	1    7250 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L dwm1000-rescue:R-RESCUE-dwm1000 R4
+U 1 1 59A02E44
+P 7250 5300
+F 0 "R4" V 7330 5300 50  0000 C CNN
+F 1 "R" V 7250 5300 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 7180 5300 50  0001 C CNN
+F 3 "" H 7250 5300 50  0001 C CNN
+	1    7250 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L dwm1000-rescue:R-RESCUE-dwm1000 R1
+U 1 1 59A03899
+P 7000 1350
+F 0 "R1" V 7080 1350 50  0000 C CNN
+F 1 "R" V 7000 1350 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 6930 1350 50  0001 C CNN
+F 3 "" H 7000 1350 50  0001 C CNN
+	1    7000 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L dwm1000-rescue:GND-RESCUE-dwm1000 #PWR05
+U 1 1 59A04A62
+P 9950 3350
+F 0 "#PWR05" H 9950 3100 50  0001 C CNN
+F 1 "GND" H 9950 3200 50  0000 C CNN
+F 2 "" H 9950 3350 50  0001 C CNN
+F 3 "" H 9950 3350 50  0001 C CNN
+	1    9950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dwm1000-rescue:VCC-RESCUE-dwm1000 #PWR06
+U 1 1 59A04BF1
+P 8650 3200
+F 0 "#PWR06" H 8650 3050 50  0001 C CNN
+F 1 "VCC" H 8650 3350 50  0000 C CNN
+F 2 "" H 8650 3200 50  0001 C CNN
+F 3 "" H 8650 3200 50  0001 C CNN
+	1    8650 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L dwm1000-rescue:VCC-RESCUE-dwm1000 #PWR07
+U 1 1 59A04ED6
+P 6500 2350
+F 0 "#PWR07" H 6500 2200 50  0001 C CNN
+F 1 "VCC" H 6500 2500 50  0000 C CNN
+F 2 "" H 6500 2350 50  0001 C CNN
+F 3 "" H 6500 2350 50  0001 C CNN
+	1    6500 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L dwm1000-rescue:CONN_01X02-RESCUE-dwm1000 J1
+U 1 1 59A0516D
+P 5950 900
+F 0 "J1" H 5950 1050 50  0000 C CNN
+F 1 "CONN_01X02" V 6050 900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5950 900 50  0001 C CNN
+F 3 "" H 5950 900 50  0001 C CNN
+	1    5950 900 
+	0    -1   -1   0   
+$EndComp
+Entry Wire Line
+	7150 2250 7250 2350
+Entry Wire Line
+	7550 2950 7650 3050
+Entry Wire Line
+	7150 2950 7250 3050
+Entry Wire Line
+	7250 2950 7350 3050
+Entry Wire Line
+	7350 2950 7450 3050
+Entry Wire Line
+	7450 2950 7550 3050
+Entry Wire Line
+	7250 2250 7350 2350
+Entry Wire Line
+	7350 2250 7450 2350
+Entry Wire Line
+	7450 2250 7550 2350
+Entry Wire Line
+	7550 2250 7650 2350
+Text Notes 5650 700  0    60   ~ 0
+Power Pin 
+Entry Wire Line
+	7150 3650 7250 3750
+Entry Wire Line
+	7250 3650 7350 3750
+Entry Wire Line
+	7350 3650 7450 3750
+Entry Wire Line
+	7450 3650 7550 3750
+Entry Wire Line
+	7550 3650 7650 3750
+Entry Wire Line
+	7650 3650 7750 3750
+Entry Wire Line
+	7750 3650 7850 3750
+Entry Wire Line
+	7850 3650 7950 3750
+Entry Wire Line
+	7950 3650 8050 3750
+Entry Wire Line
+	8050 3650 8150 3750
+Entry Wire Line
+	8150 3650 8250 3750
+Entry Wire Line
+	8250 3650 8350 3750
+Entry Wire Line
+	8350 3650 8450 3750
+Entry Wire Line
+	8450 3650 8550 3750
+Entry Wire Line
+	7150 4550 7250 4650
+Entry Wire Line
+	7250 4550 7350 4650
+Entry Wire Line
+	7350 4550 7450 4650
+Entry Wire Line
+	7450 4550 7550 4650
+Entry Wire Line
+	7550 4550 7650 4650
+Entry Wire Line
+	7650 4550 7750 4650
+Entry Wire Line
+	7750 4550 7850 4650
+Entry Wire Line
+	7850 4550 7950 4650
+Entry Wire Line
+	7950 4550 8050 4650
+Entry Wire Line
+	8050 4550 8150 4650
+Entry Wire Line
+	8150 4550 8250 4650
+Entry Wire Line
+	8250 4550 8350 4650
+Entry Wire Line
+	8350 4550 8450 4650
+Entry Wire Line
+	8450 4550 8550 4650
+Text Label 7150 3600 1    39   ~ 0
+A1
+Text Label 7250 3600 1    39   ~ 0
+A2
+Text Label 7350 3600 1    39   ~ 0
+A3
+Text Label 7450 3600 1    39   ~ 0
+A4
+Text Label 7550 3600 1    39   ~ 0
+A5
+Text Label 7650 3600 1    39   ~ 0
+A6
+Text Label 7750 3600 1    39   ~ 0
+A7
+Text Label 7850 3600 1    39   ~ 0
+A8
+Text Label 7950 3600 1    39   ~ 0
+A9
+Text Label 8050 3600 1    39   ~ 0
+A10
+Text Label 8150 3600 1    39   ~ 0
+A11
+Text Label 8250 3600 1    39   ~ 0
+A12
+Text Label 8350 3600 1    39   ~ 0
+A13
+Text Label 8450 3600 1    39   ~ 0
+A14
+Text Label 7150 4500 1    39   ~ 0
+A1
+Text Label 7250 4500 1    39   ~ 0
+A2
+Text Label 7350 4500 1    39   ~ 0
+A3
+Text Label 7450 4500 1    39   ~ 0
+A4
+Text Label 7550 4500 1    39   ~ 0
+A5
+Text Label 7650 4500 1    39   ~ 0
+A6
+Text Label 7750 4500 1    39   ~ 0
+A7
+Text Label 7850 4500 1    39   ~ 0
+A8
+Text Label 7950 4500 1    39   ~ 0
+A9
+Text Label 8050 4500 1    39   ~ 0
+A10
+Text Label 8150 4500 1    39   ~ 0
+A11
+Text Label 8250 4500 1    39   ~ 0
+A12
+Text Label 8350 4500 1    39   ~ 0
+A13
+Text Label 8450 4500 1    39   ~ 0
+A14
+Text Label 7150 2200 1    39   ~ 0
+B1
+Text Label 7250 2200 1    39   ~ 0
+B2
+Text Label 7350 2200 1    39   ~ 0
+B3
+Text Label 7450 2150 1    39   ~ 0
+B4
+Text Label 7550 2150 1    39   ~ 0
+B5
+Text Label 7150 2900 1    39   ~ 0
+B1
+Text Label 7250 2900 1    39   ~ 0
+B2
+Text Label 7350 2900 1    39   ~ 0
+B3
+Text Label 7450 2900 1    39   ~ 0
+B4
+Text Label 7550 2900 1    39   ~ 0
+B5
+$Comp
+L dwm1000-rescue:CONN_01X05-RESCUE-dwm1000 J12
+U 1 1 59A485F7
+P 3850 4200
+F 0 "J12" H 3850 4500 50  0000 C CNN
+F 1 "CONN_01X05" V 3950 4200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 3850 4200 50  0001 C CNN
+F 3 "" H 3850 4200 50  0001 C CNN
+	1    3850 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dwm1000-rescue:CONN_01X05-RESCUE-dwm1000 J11
+U 1 1 59A488F4
+P 3350 4250
+F 0 "J11" H 3350 4550 50  0000 C CNN
+F 1 "CONN_01X05" V 3450 4250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 3350 4250 50  0001 C CNN
+F 3 "" H 3350 4250 50  0001 C CNN
+	1    3350 4250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6000 1700 6150 1700
+Wire Wire Line
+	6150 1700 6150 1800
+Wire Wire Line
+	5250 3500 5250 3600
+Wire Wire Line
+	5250 3600 5250 3700
+Wire Wire Line
+	5250 3700 5300 3700
+Wire Wire Line
+	7400 4900 7600 4900
+Wire Wire Line
+	7400 5100 7700 5100
+Wire Wire Line
+	7400 5300 7800 5300
+Wire Wire Line
+	7100 4900 6700 4900
+Wire Wire Line
+	7100 5100 6800 5100
+Wire Wire Line
+	6800 5100 6800 5900
+Wire Wire Line
+	7100 5300 6900 5300
+Wire Wire Line
+	7450 5900 7800 5900
+Wire Wire Line
+	7450 2000 7450 2200
+Wire Wire Line
+	7450 2200 7450 2250
+Wire Wire Line
+	7450 2200 7950 2200
+Wire Wire Line
+	7950 2200 7950 1500
+Wire Wire Line
+	7950 1500 6600 1500
+Wire Wire Line
+	6600 1500 6600 1350
+Wire Wire Line
+	6600 1350 6850 1350
+Wire Wire Line
+	7150 1350 7150 1000
+Wire Wire Line
+	7150 1000 6400 1000
+Wire Wire Line
+	6400 1000 6400 3700
+Wire Wire Line
+	6400 3700 7000 3700
+Wire Wire Line
+	7000 3700 7000 3550
+Wire Wire Line
+	7000 3550 7450 3550
+Wire Wire Line
+	7450 3500 7450 3550
+Wire Wire Line
+	7450 3550 7450 3650
+Wire Wire Line
+	8800 1200 8800 1850
+Wire Wire Line
+	8800 1850 8800 2500
+Wire Wire Line
+	8800 2500 10600 2500
+Wire Wire Line
+	8900 1200 8900 2600
+Wire Wire Line
+	8900 2600 10600 2600
+Wire Wire Line
+	9050 1750 9050 2700
+Wire Wire Line
+	9050 2700 10600 2700
+Wire Wire Line
+	8950 3100 8950 2900
+Wire Wire Line
+	8950 2900 9450 2900
+Wire Wire Line
+	9450 2900 9450 3000
+Wire Wire Line
+	9450 3000 9950 3000
+Wire Wire Line
+	9950 3000 10600 3000
+Wire Wire Line
+	8650 3200 8800 3200
+Wire Wire Line
+	8800 3200 8950 3200
+Wire Wire Line
+	8800 3200 8800 2800
+Wire Wire Line
+	8800 2800 9350 2800
+Wire Wire Line
+	9350 2800 9350 3100
+Wire Wire Line
+	9350 3100 10600 3100
+Wire Wire Line
+	8950 3300 8850 3300
+Wire Wire Line
+	8850 3300 8850 3450
+Wire Wire Line
+	8850 3450 9550 3450
+Wire Wire Line
+	9550 3450 9550 3200
+Wire Wire Line
+	9550 3200 10600 3200
+Wire Wire Line
+	8100 2700 8500 3050
+Wire Wire Line
+	8500 3050 8500 2750
+Wire Wire Line
+	8500 2750 9500 2750
+Wire Wire Line
+	9500 2750 9500 2800
+Wire Wire Line
+	9500 2800 10600 2800
+Wire Wire Line
+	8200 2700 8900 2700
+Wire Wire Line
+	8900 2700 8900 2850
+Wire Wire Line
+	8900 2850 9500 2850
+Wire Wire Line
+	9500 2850 9500 2900
+Wire Wire Line
+	9500 2900 10600 2900
+Wire Wire Line
+	9950 3000 9950 3350
+Connection ~ 9950 3000
+Connection ~ 8800 3200
+Wire Wire Line
+	7350 2000 7350 2050
+Wire Wire Line
+	7350 2050 7350 2250
+Wire Wire Line
+	6500 2050 7350 2050
+Wire Wire Line
+	6500 2050 6500 2350
+Wire Wire Line
+	6000 1100 6000 1700
+Wire Wire Line
+	5500 2100 5800 2100
+Wire Wire Line
+	5800 2100 5800 4000
+Wire Wire Line
+	5800 4000 8500 4000
+Wire Wire Line
+	5700 3950 8400 3950
+Wire Wire Line
+	5700 3950 5700 2200
+Wire Wire Line
+	5700 2200 5500 2200
+Wire Wire Line
+	5500 2300 5600 2300
+Wire Wire Line
+	5600 2300 5600 3900
+Wire Wire Line
+	5600 3900 8300 3900
+Wire Wire Line
+	8650 1850 8800 1850
+Connection ~ 8800 1850
+Wire Wire Line
+	8200 3850 5900 3850
+Wire Wire Line
+	5900 3850 5900 1800
+Wire Wire Line
+	5900 1800 5500 1800
+Wire Wire Line
+	7150 2850 7150 2950
+Wire Wire Line
+	7250 2850 7250 2950
+Wire Wire Line
+	7350 2850 7350 2950
+Wire Wire Line
+	7450 2850 7450 2950
+Wire Wire Line
+	7550 2850 7550 2950
+Wire Wire Line
+	7150 2000 7150 2250
+Wire Wire Line
+	7250 2000 7250 2250
+Connection ~ 7350 2050
+Connection ~ 7450 2200
+Wire Wire Line
+	7550 2000 7550 2250
+Wire Wire Line
+	7150 4450 7150 4550
+Wire Wire Line
+	7250 4450 7250 4550
+Wire Wire Line
+	7350 4450 7350 4550
+Wire Wire Line
+	7450 4450 7450 4550
+Wire Wire Line
+	7550 4450 7550 4550
+Wire Wire Line
+	7650 4450 7650 4550
+Wire Wire Line
+	7750 4450 7750 4550
+Wire Wire Line
+	7850 4450 7850 4550
+Wire Wire Line
+	7950 4450 7950 4550
+Wire Wire Line
+	8050 4450 8050 4550
+Wire Wire Line
+	8150 4450 8150 4550
+Wire Wire Line
+	8250 4450 8250 4550
+Wire Wire Line
+	8350 4450 8350 4550
+Wire Wire Line
+	8450 4450 8450 4550
+Wire Bus Line
+	6700 4650 6700 3750
+Wire Wire Line
+	8200 3650 8200 3850
+Wire Wire Line
+	8200 3650 8150 3650
+Wire Wire Line
+	8300 3900 8300 3650
+Wire Wire Line
+	8300 3650 8250 3650
+Wire Wire Line
+	8400 3950 8400 3650
+Wire Wire Line
+	8400 3650 8350 3650
+Wire Wire Line
+	8500 4000 8500 3650
+Wire Wire Line
+	8500 3650 8450 3650
+Wire Wire Line
+	8450 3650 8450 3500
+Wire Wire Line
+	8350 3650 8350 3500
+Wire Wire Line
+	8250 3650 8250 3500
+Wire Wire Line
+	8150 3650 8150 3500
+Wire Wire Line
+	7150 3500 7150 3650
+Wire Wire Line
+	7250 3500 7250 3650
+Wire Wire Line
+	7350 3500 7350 3650
+Connection ~ 7450 3550
+Wire Wire Line
+	7550 3500 7550 3650
+Wire Wire Line
+	7650 3500 7650 3650
+Wire Wire Line
+	7750 3500 7750 3650
+Wire Wire Line
+	7850 3500 7850 3650
+Wire Wire Line
+	7950 3500 7950 3650
+Wire Wire Line
+	8050 3500 8050 3650
+Wire Wire Line
+	7600 4900 7600 4550
+Wire Wire Line
+	7600 4550 7550 4550
+Wire Wire Line
+	7700 5100 7700 4550
+Wire Wire Line
+	7700 4550 7650 4550
+Wire Wire Line
+	7800 5300 7800 4550
+Wire Wire Line
+	7800 4550 7750 4550
+Wire Bus Line
+	6850 2350 6850 3050
+Text Notes 6800 600  0    60   ~ 0
+http://fr.farnell.com/cree/clp6c-fkb-cm1q1h1bb7r3r3/led-plcc6-multi-colour/dp/1855543
+Wire Wire Line
+	5900 1100 5900 1550
+Wire Wire Line
+	5900 1550 6600 1550
+Wire Wire Line
+	6600 1550 6600 2000
+Wire Wire Line
+	6600 2000 7150 2000
+Wire Wire Line
+	5250 3600 5450 3600
+Wire Wire Line
+	5450 3600 5450 4550
+Wire Wire Line
+	5450 4550 7150 4550
+Connection ~ 5250 3600
+$Comp
+L dwm1000-rescue:DWM1000-RESCUE-dwm1000 DWM1
+U 1 1 5A0F0092
+P 2200 2100
+F 0 "DWM1" H 2500 3100 50  0000 C CNN
+F 1 "DWM1000" H 2250 2250 50  0000 C CNN
+F 2 "RF_Modules:DWM1000" H 2900 1100 50  0001 C CNN
+F 3 "" H 4600 1000 50  0001 C CNN
+	1    2200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3200 2200 3400
+Wire Wire Line
+	2000 3200 2000 3400
+Wire Wire Line
+	2000 3400 2100 3400
+Connection ~ 2200 3400
+Wire Wire Line
+	2100 3200 2100 3400
+Connection ~ 2100 3400
+Wire Wire Line
+	2100 3400 2200 3400
+Wire Wire Line
+	2300 3200 2300 3400
+Wire Wire Line
+	2300 3400 2200 3400
+Wire Wire Line
+	2400 3200 2400 3400
+Wire Wire Line
+	2400 3400 2300 3400
+Connection ~ 2300 3400
+Wire Wire Line
+	2100 1000 2100 800 
+Wire Wire Line
+	2100 800  2200 800 
+Wire Wire Line
+	2200 800  2200 750 
+Wire Wire Line
+	2200 1000 2200 800 
+Connection ~ 2200 800 
+Wire Wire Line
+	2300 1000 2300 800 
+Wire Wire Line
+	2300 800  2200 800 
+Text GLabel 1300 2000 0    60   Input ~ 0
+GND
+Text GLabel 3150 4450 0    60   Input ~ 0
+EXTON
+Text GLabel 1300 1900 0    60   Input ~ 0
+EXTON
+Text GLabel 1800 3400 0    60   Input ~ 0
+GND
+Wire Wire Line
+	1800 3400 2000 3400
+Connection ~ 2000 3400
+Text GLabel 1300 2100 0    60   Input ~ 0
+RSTn
+Text GLabel 3150 4350 0    60   Input ~ 0
+RSTn
+Text GLabel 1300 2200 0    60   Input ~ 0
+GPIO7
+Text GLabel 3150 4250 0    60   Input ~ 0
+GPIO7
+Text GLabel 3100 2700 2    60   Input ~ 0
+GPIO6
+Text GLabel 3100 2600 2    60   Input ~ 0
+GPIO5
+Text GLabel 3150 4150 0    60   Input ~ 0
+GPIO6
+Text GLabel 3150 4050 0    60   Input ~ 0
+GPIO5
+Text GLabel 3100 2500 2    60   Input ~ 0
+GPIO4
+Text GLabel 3100 2400 2    60   Input ~ 0
+GPIO3
+Text GLabel 3100 2300 2    60   Input ~ 0
+GPIO2
+Text GLabel 3100 2200 2    60   Input ~ 0
+GPIO1
+Text GLabel 3100 2100 2    60   Input ~ 0
+GPIO0
+Text GLabel 3100 1700 2    60   Input ~ 0
+SPICS
+Text GLabel 3100 1600 2    60   Input ~ 0
+SPIMOSI
+Text GLabel 3100 1500 2    60   Input ~ 0
+SPIMISO
+Text GLabel 3100 1400 2    60   Input ~ 0
+SPICLK
+Text GLabel 3100 1300 2    60   Input ~ 0
+IRQ
+Text GLabel 4050 4000 2    60   Input ~ 0
+GPIO4
+Text GLabel 4050 4100 2    60   Input ~ 0
+GPIO3
+Text GLabel 4050 4200 2    60   Input ~ 0
+GPIO2
+Text GLabel 4050 4300 2    60   Input ~ 0
+GPIO1
+Text GLabel 4050 4400 2    60   Input ~ 0
+GPIO0
+Text GLabel 5500 1800 0    60   Input ~ 0
+IRQ
+Text GLabel 8650 1850 0    60   Input ~ 0
+SPICLK
+Text GLabel 5500 2100 0    60   Input ~ 0
+SPIMISO
+Text GLabel 5500 2200 0    60   Input ~ 0
+SPIMOSI
+Text GLabel 5500 2300 0    60   Input ~ 0
+SPICS
+Text GLabel 2100 800  0    60   Input ~ 0
+VCC
+Text GLabel 7800 5900 2    60   Input ~ 0
+GND
+Wire Wire Line
+	6700 4900 6700 6100
+Wire Wire Line
+	6900 5300 6900 5700
+Wire Wire Line
+	6900 5700 7050 5700
+Wire Wire Line
+	6700 6100 7050 6100
+Wire Wire Line
+	6800 5900 7050 5900
+$Comp
+L device:LED_RGB D1
+U 1 1 5A66E8EF
+P 7250 5900
+F 0 "D1" H 7250 6397 50  0000 C CNN
+F 1 "LED_RGB" H 7250 6306 50  0000 C CNN
+F 2 "LED_SMD:LED_RGB_Cree-PLCC-6_6x5mm_P2.1mm" H 7250 5850 50  0001 C CNN
+F 3 "~" H 7250 5850 50  0001 C CNN
+	1    7250 5900
+	1    0    0    -1  
+$EndComp
+Connection ~ 7450 5900
+Wire Wire Line
+	7450 6100 7450 5900
+Wire Wire Line
+	7450 5700 7450 5900
+$Comp
+L device:LED_RCGB D2
+U 1 1 5A69564A
+P 6050 5900
+F 0 "D2" H 6050 6397 50  0000 C CNN
+F 1 "LED_RCGB" H 6050 6306 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-4" H 6050 5850 50  0001 C CNN
+F 3 "~" H 6050 5850 50  0001 C CNN
+	1    6050 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5700 6250 5700
+Connection ~ 6900 5700
+Wire Wire Line
+	6800 5900 6250 5900
+Connection ~ 6800 5900
+Wire Wire Line
+	6700 6100 6250 6100
+Connection ~ 6700 6100
+Wire Wire Line
+	5850 5900 5500 5900
+Wire Wire Line
+	5500 5900 5500 6350
+Wire Wire Line
+	5500 6350 7450 6350
+Wire Wire Line
+	7450 6350 7450 6100
+Wire Bus Line
+	6850 3050 7650 3050
+Wire Bus Line
+	6850 2350 7650 2350
+Wire Bus Line
+	6700 3750 8550 3750
+Wire Bus Line
+	6700 4650 8550 4650
+Connection ~ 7450 6100
+Wire Wire Line
+	7450 6100 7450 5900
+$EndSCHEMATC

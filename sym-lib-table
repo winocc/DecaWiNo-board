@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name dwm1000-rescue)(type Legacy)(uri ${KIPRJMOD}/dwm1000-rescue.lib)(options "")(descr ""))
+  (lib (name Decawave1)(type Legacy)(uri /home/ouinouin/documents/projets/01_en_cours/fritzing/kicadlibs/eschema/Decawave.lib)(options "")(descr ""))
+)
